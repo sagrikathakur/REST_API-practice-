@@ -27,6 +27,7 @@ api.get('/myReadOperation', (req, res) => {
 api.post('/users', (req, res) => {
   const newUser = {
     id: myStudent.length + 1,
+
     name: req.body.name
   };
 
